@@ -28,7 +28,7 @@ void setup() {
   while (!Serial) ; // wait for connection
 
   // prints title with ending line break
-  Serial.println("Liquid Crystal Light Valve analog control demo...");
+  Serial.println("Liquid Crystal Light Valve digital control demo...");
 }
 
 void loop() {
