@@ -47,11 +47,11 @@ LCLV behave as a closed shutter.
 
 The LCLV class takes five parameters:
 
-pina	Output pin connected to one lead of the LCLV
-pinb	Output pin connected to the other LCLV lead
-v	Analog/PWM value from 0..255 or digital value 0 or non-0
-hz	Desired AC frequency, in Hertz (cycles/second)
-an	Analog control or digital?
+* pina: Output pin connected to one lead of the LCLV
+* pinb: Output pin connected to the other LCLV lead
+* v: Analog/PWM value from 0..255 or digital value 0 or non-0
+* hz: Desired AC frequency, in Hertz (cycles/second)
+* an: Analog control or digital?
 
 The an parameter requires a little explanation. Analog outputs
 are commonly more linear in the middle of their range than near
