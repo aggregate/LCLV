@@ -22,9 +22,6 @@ class LCLV {
   public:
     // constructors
     LCLV(int pina, int pinb, unsigned char v, int hz, int an);
-    LCLV(int pina, int pinb, unsigned char v, int hz);
-    LCLV(int pina, int pinb, unsigned char v);
-    LCLV(int pina, int pinb);
 
     // actions
     void shutter(unsigned long us); // open shutter for us

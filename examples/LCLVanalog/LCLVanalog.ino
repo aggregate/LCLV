@@ -18,9 +18,10 @@
 #define	PINB	10	// the other lead
 #define	V     0	  // initial value (minimum opacity)
 #define	HZ    100 // AC target frequency for LCLV control
+#define	AN    0   // use analog control
 
 // create an LCLV controller
-LCLV lclv = LCLV(PINA, PINB, V, HZ);
+LCLV lclv = LCLV(PINA, PINB, V, HZ, AN);
 
 void setup() {
   //Initialize serial

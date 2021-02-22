@@ -30,24 +30,6 @@ LCLV::LCLV(int pina, int pinb, uint8_t v, int hz, int an)
   LCLV::set(v);
 }
 
-LCLV::LCLV(int pina, int pinb, uint8_t v, int hz)
-{
-  // Default analog
-  LCLV::LCLV(pina, pinb, v, hz, 1);
-}
-
-LCLV::LCLV(int pina, int pinb, uint8_t v)
-{
-  // Default 100Hz, analog
-  LCLV::LCLV(pina, pinb, v, 100, 1);
-}
-
-LCLV::LCLV(int pina, int pinb)
-{
-  // Default 0, 100Hz, analog
-  LCLV::LCLV(pina, pinb, 0, 100, 1);
-}
-
 void
 LCLV::shutter(unsigned long us)
 {
