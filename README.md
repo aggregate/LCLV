@@ -60,7 +60,7 @@ non-0, the PWM average value will be 127 instead of 0. For
 example, requesting a PWM value of 21 with an non-0 will
 alternate between 117,138 and 138,117 using analogWrite() to the
 pins. If an is 0, then v==0 will use digitalWrite() to output
-LOW, LOW and v>1 would alternate between LOW, HIGH and HIGH, LOW.
+LOW, LOW and v>0 would alternate between LOW, HIGH and HIGH, LOW.
 
 This driver was created by Professor Hank Dietz,
 hankd@engr.uky.edu, at the University of Kentucky in support of
